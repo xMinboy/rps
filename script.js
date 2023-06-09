@@ -3,14 +3,14 @@ let paper = document.getElementById("paper")
 let scissor = document.getElementById("scissor")
 let player = document.getElementById("player")
 
-rock.addEventListener("click", function() {
-    player.innerHTML = "rock"
+rock.addEventListener("click", function () {
+    player.innerHTML = "rock";
 })
 
-paper.addEventListener("click", function() {
+paper.addEventListener("click", function () {
     player.innerHTML = "paper"
 })
 
-scissor.addEventListener("click", function() {
+scissor.addEventListener("click", function () {
     player.innerHTML = "scissor"
 })
