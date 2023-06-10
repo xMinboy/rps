@@ -14,16 +14,31 @@
     </header>
 
     <div class="playingarea">
+        <div class="sides">
 
-        <div class="computer">
-            <img id="computerhand" src="paper.png" alt="">
+            <div class="computer">
+                <img id="computerhand" src="paper.png" alt="" value="">
+            </div>
 
+            <div class="scorebox">
+                <div class="playerbox">
+                    Player Score
+                    <div class="playerscore">0</div>
+                </div>
+
+                <div class="computerbox">
+                    Computer Score
+                    <div class="computerscore">0</div>
+                </div>
+
+            </div>
+
+            <div class="devider"></div>
+            <div id="player" class="player">
+                <img id="playerhand" src="paper.png" alt="" value="">
+            </div>
         </div>
-        <div class="devider"></div>
-        <div id="player" class="player">
-            <img id="playerhand" src="paper.png" alt="">
-        </div>
-        <div class="winner">You Win 🎉</div>
+        <div class="winner">Let's Play 🎉</div>
         <div class="buttons">
             <button id="rock" type="button">Rock</button>
             <button id="paper" type="button">Paper</button>
@@ -32,8 +47,8 @@
         <div class="play">
             <button id="play" type="button">Play</button>
         </div>
-
     </div>
+
     <script src="script.js"></script>
 </body>
 
