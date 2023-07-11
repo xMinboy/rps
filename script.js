@@ -47,6 +47,7 @@ play.addEventListener("click", function () {
     if (computerChoice.value === playerChoice.value) {
         result.textContent = "It's a DRAW!!";
         computerScore.textContent = computerCurrent;
+        playerScore.textContent = playerCurrent;
     } else if ((computerChoice.value === 'rock') && (playerChoice.value === 'paper')) {
         result.textContent = 'You win!!'
         playerCurrent++;
@@ -62,7 +63,7 @@ play.addEventListener("click", function () {
     } else {
         result.textContent = 'Computer wins!!'
         computerCurrent++;
-        computerScore.textContent = playerCurrent
+        computerScore.textContent = computerCurrent;
     }
 })
 
